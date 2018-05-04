@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true">
+
+    <View
+        android:id="@+id/play_dark_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|top"
+        android:background="#000"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/play_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/btn_play_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:drawableLeft="@drawable/ic_repeat_black_24dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="顺序播放"
+            android:textColor="@color/font_color"
+            android:textSize="13sp"/>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/btn_play_mode"
+            android:background="#cccccc"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/line2"
+            android:layout_below="@+id/line"/>
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_above="@+id/btn_dismiss"
+            android:background="#cccccc"/>
+
+        <TextView
+            android:id="@+id/btn_dismiss"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/font_color"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="51dp">
+
+    <TextView
+        android:id="@+id/item_music_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/image_anim"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:paddingLeft="16dp"
+        android:text="立法技术开发建设路口"
+        android:textColor="@color/font_color"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:id="@+id/image_anim"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:visibility="invisible"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/btn_delete"
+        android:src="@drawable/anim_play_list"/>
+
+    <ImageView
+        android:id="@+id/btn_delete"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:tint="#cccccc"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="12dp"
+        android:background="#cccccc"/>
+</RelativeLayout>

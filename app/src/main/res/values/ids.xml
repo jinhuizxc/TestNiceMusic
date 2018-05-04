@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="statusbar_view" type="id"/>
+    <item name="translucent_view" type="id"/>
+    <item name="toolbar" type="id"/>
+
+    <item name="key_search_title" type="id"/>
+    <item name="key_search_position" type="id"/>
+</resources>

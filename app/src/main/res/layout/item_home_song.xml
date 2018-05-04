@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <com.lzx.nicemusic.widget.CircleImageView
+        android:id="@+id/music_cover"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="16dp"
+        android:src="#4FCDD5" />
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/music_cover"
+        android:layout_toRightOf="@+id/music_cover"
+        android:ellipsize="end"
+        android:lines="1"
+        android:paddingTop="5dp"
+        android:text="D是多久啊离开的"
+        android:textColor="#666666"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/music_cover"
+        android:layout_toRightOf="@+id/music_cover"
+        android:ellipsize="end"
+        android:lines="1"
+        android:paddingBottom="5dp"
+        android:text="多久啊"
+        android:textColor="#949494"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="#cccccc" />
+</RelativeLayout>

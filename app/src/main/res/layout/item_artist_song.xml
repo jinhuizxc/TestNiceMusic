@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/song_num"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#0cbecd"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_anim"
+        android:layout_width="16dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/anim_play_list"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:paddingRight="20dp"
+        android:text="点击阿拉山口多久啊是；烂大街"
+        android:textColor="#001859"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>

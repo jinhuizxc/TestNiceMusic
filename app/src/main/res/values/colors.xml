@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#50cdd4</color>
+    <color name="colorPrimaryDark">#B85671</color>
+    <color name="colorAccent">#333333</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="font_color">#2E302F</color>
+    <color name="red">#C5025E</color>
+
+    <color name="window_background">#F3F4F6</color>
+
+    <color name="font_normal">#919294</color>
+    <color name="black">#000000</color>
+    <color name="black_80">#222222</color>
+    <color name="refresh_pink_background">#fb7299</color>
+</resources>

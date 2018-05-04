@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">TestNiceMusic</string>
+
+    <string name="browse_genres">Genres</string>
+    <string name="browse_genre_subtitle">Songs by genre</string>
+    <string name="browse_musics_by_genre_subtitle">%1$s songs</string>
+    <string name="search_queue_title">Search results</string>
+    <string name="random_queue_title">Random music</string>
+    <string name="favorite">Favorite</string>
+    <string name="error_no_metadata">Unable to retrieve metadata.</string>
+
+    <string name="notification_channel">UAMP_Channel_ID</string>
+    <string name="notification_channel_description">Channel ID for UAMP</string>
+
+    <string name="casting_to_device">Casting to %1$s</string>
+    <string name="stop_casting">Stop Casting</string>
+    <string name="label_pause">Pause</string>
+    <string name="label_play">Play</string>
+    <string name="label_previous">Previous</string>
+    <string name="label_next">Next</string>
+
+    <string-array name="query_suggestions">
+        <item>re:从零开始的异世界生活</item>
+        <item>守望先锋</item>
+        <item>暴走大事件</item>
+        <item>极限挑战</item>
+        <item>主播真会玩</item>
+        <item>起小点</item>
+        <item>爱来了别错过</item>
+        <item>敖厂长</item>
+        <item>打架吧鬼神</item>
+        <item>老九门</item>
+        <item>不可抗力</item>
+        <item>抗韩中年人</item>
+        <item>我的危险妻子</item>
+        <item>蜡笔小新</item>
+        <item>逗鱼时刻</item>
+        <item>2468499</item>
+        <item>老e</item>
+        <item>谷阿莫</item>
+        <item>大鱼海棠</item>
+        <item>逆风笑</item>
+        <item>徐老师来巡山</item>
+        <item>镇魂街</item>
+        <item>火影忍者</item>
+        <item>狐妖小红娘</item>
+        <item>夏一可</item>
+        <item>papi酱</item>
+        <item>中国boy大基佬</item>
+        <item>日常</item>
+        <item>有喜欢的人</item>
+        <item>交给岚吧</item>
+        <item>arashi</item>
+        <item>骚男</item>
+        <item>超时空要塞</item>
+        <item>薛之谦</item>
+        <item>咱们穿越吧</item>
+        <item>snh48</item>
+        <item>极速前进</item>
+        <item>akb48</item>
+        <item>心有所属</item>
+        <item>海贼王</item>
+        <item>纯黑</item>
+        <item>星际老男孩</item>
+        <item>陈伟霆</item>
+        <item>野良神</item>
+        <item>极乐净土</item>
+        <item>pdd</item>
+        <item>真田丸</item>
+    </string-array>
+
+    <string-array name="alarms_title_array">
+        <item>不开启</item>
+        <item>10分钟后</item>
+        <item>20分钟后</item>
+        <item>30分钟后</item>
+        <item>60分钟后</item>
+        <item>90分钟后</item>
+    </string-array>
+
+</resources>
